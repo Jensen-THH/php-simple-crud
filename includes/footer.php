@@ -1,5 +1,5 @@
 <!-- BOOTSTRAP 4 SCRIPTS -->
-<div class="fixed-bottom text-light shadow-lg p-3 mt-5 bg-white rounded" style="height: 50px;">
+<div class="fixed-bottom text-light shadow-lg p-3 mt-5 bg-white rounded" style="opacity: 0.3;height: 50px;">
     <p class="text-center text-dark" style="font-weight: bold; text-transform: uppercase;">jensen</p>
 </div>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

@@ -12,13 +12,12 @@
   <body>
 
     <nav class="navbar navbar-dark text-dark  shadow p-3 mb-2 bg-white rounded">
-      <div>
-          <a class="ml-5 navbar-brand" style="color:black; font-weight: bold;" href="index.php">QUẢN LÝ THÔNG TIN</a>
+      <div class="container">
+          <a class="navbar-brand" style="color:black; font-weight: bold;" href="index.php">QUẢN LÝ THÔNG TIN</a>
+          <a  style="color: black;font-weight: bold;font-size: 20px;" href="formdangki.php">Sign up</a>
       </div>
-     <div style="color: black;">
-     <a class="pr-5" style="color: black;font-weight: bold;font-size: 20px;" href="formlogin.php">Sign in</a>
-        <a  style="color: black;font-weight: bold;font-size: 20px;" href="formdangki.php">Sign up</a>
-     </div>
+     <!-- <div style="color: black;">
+     </div> -->
     </nav>
     <section>
         <div class="container">
@@ -44,7 +43,7 @@
                         <input type="checkbox" class="form-check-input">
                         <label class="form-check-label" for="exampleCheck1">Check me out</label>
                     </div>
-                    <button type="submit" class="btn btn-primary">Login</button>
+                    <button type="submit" class="btn btn-primary">Login <i class="fas fa-sign-in-alt"></i></button>
                 </form>
             
 

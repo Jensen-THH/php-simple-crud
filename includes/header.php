@@ -18,7 +18,10 @@
     <nav class="navbar navbar-dark text-dark  shadow p-3 mb-2 bg-white rounded">
       <div class="container">
         <a class="navbar-brand" style="color:black; font-weight: bold;" href="index.php">QUẢN LÝ THÔNG TIN</a>
+        <div> 
+
+          <a  style="color: black;font-weight: bold;font-size: 20px; margin-right:10px; text-transform: uppercase;"><?=  $_SESSION['name']; ?></a>
+          <a  style=" color: black;font-weight: bold;font-size: 20px; margin-right:10px"  href="logout.php"><i style="font-size: 30px;" class="fas fa-sign-out-alt"></i></a>
+        </div>
       </div>
-      <a  style="color: black;font-weight: bold;font-size: 20px; margin-right:10px"  href="logout.php">Logout</a>
-      <a  style="color: black;font-weight: bold;font-size: 20px; margin-right:10px"><?=  $_SESSION['name']; ?></a>
     </nav>

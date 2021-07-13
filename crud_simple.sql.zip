@@ -1,18 +1,18 @@
 -- phpMyAdmin SQL Dump
--- version 4.7.4
+-- version 5.0.4
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 06, 2020 at 06:51 PM
--- Server version: 10.1.26-MariaDB
--- PHP Version: 7.1.9
+-- Generation Time: Jul 13, 2021 at 05:45 PM
+-- Server version: 10.4.17-MariaDB
+-- PHP Version: 7.4.15
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
-
+use crud_simple;
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
@@ -27,26 +27,23 @@ SET time_zone = "+00:00";
 --
 -- Table  `college_student`
 --
-
 CREATE TABLE `college_student` (
   `student_id` varchar(10) NOT NULL,
-  `img` varchar(255) NOT NULL,
+  `img` varchar(100) NOT NULL,
   `name` varchar(50) NOT NULL,
   `majors` varchar(40) NOT NULL,
   `gender` varchar(12) NOT NULL,
-  `address` text NOT NULL,
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+  `address` text NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `college_student`
 --
 
--- INSERT INTO `college_student` (`student_id`, `name`, `majors`, `gender`, `address`) VALUES
--- ('1111', 'Jensen', 'Website programing', 'Male', 'Tây Nguyên, Việt Nam'),
--- ('2222', 'James', 'Website programing', 'Male', 'Tây Nguyên, Việt Nam'),
--- ('3333', 'Jimpel', 'Website programing', 'Male', 'Tây Nguyên, Việt Nam'),
--- ('4444', 'Joker', 'Website programing', 'Male', 'Tây Nguyên, Việt Nam'),
--- ('5555', 'Juykie', 'Website programing', 'Male', 'Tây Nguyên, Việt Nam');
+INSERT INTO `college_student` (`student_id`, `img`, `name`, `majors`, `gender`, `address`) VALUES
+('123', './test/1626189954.jpg', 'Jensen', '1234as', 'Male', 'Việt Nam'),
+('456', './test/1626189235.jpg', 'JensenKas', '123 Web php', 'Male', '123 vbs'),
+('778', './test/1626189276.jpg', 'Kankara', '123 Electron', 'Male', '123 nbc');
 
 
 --
